@@ -1,0 +1,24 @@
+<div id="mh_rpg_dice_container">
+	<p>Number of dice<br>
+		<input type="number" id="mh_rpg_number_of_dice" value="1" min="1">
+	</p>
+	
+	<p>Type of die:<br>
+		<select id="mh_rpg_die_type">
+			<option value="4" selected>4</option>
+			<option value="6">6</option>
+			<option value="8">8</option>
+			<option value="10">10</option>
+			<option value="12">12</option>
+			<option value="20">20</option>
+			<option value="100">100</option>
+		</select>
+	</p>
+
+	<label for="mh_rpg_display_all_cb">Display all rolls? 
+	<input type="checkbox" id="mh_rpg_display_all_cb"></label><br>
+	
+	<input type="button" id="mh_rpg_roll_button" value="Roll">
+	<p>Result: <span id="mh_rpg_dice_roll"></span> 
+	<span id="mh_rpg_all_rolls"></span></p>
+</div>
